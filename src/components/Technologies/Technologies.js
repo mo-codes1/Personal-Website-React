@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiJavascript, DiReact, DiRuby, DiZend } from 'react-icons/di';
+import { DiFirebase, DiGrails, DiJavascript, DiMysql, DiNodejs, DiPostgresql, DiReact, DiRuby, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -25,18 +25,9 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem"/>
-        <ListContainer>
-          <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            JavaScript
-
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <DiFirebase size="3rem"/>
+        <DiNodejs size="3rem"/>
+        <DiPostgresql size="3rem"/>
+        <DiGrails size="3rem"/>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
